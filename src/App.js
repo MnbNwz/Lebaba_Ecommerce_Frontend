@@ -1,21 +1,17 @@
-
-import { Outlet } from 'react-router-dom'
-import './App.css'
-import Navbar from './Components/Navbar'
-
+import { Outlet } from "react-router-dom";
+import "./App.css";
+import Navbar from "./components/navbar/Navbar";
 
 function App() {
- 
-
   return (
     <div
     //  className='h-screen flex justify-center items-center'
-     >
-     {/* <h1 className='text-2xl'>Lebaba Ecommerce Starter Files</h1> */}
-     <Navbar/>
-     <Outlet/>
+    >
+      {/* <h1 className='text-2xl'>Lebaba Ecommerce Starter Files</h1> */}
+      <Navbar />
+      <Outlet />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
