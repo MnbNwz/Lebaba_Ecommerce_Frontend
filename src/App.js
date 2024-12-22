@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/navbar/Navbar";
+import Footer from "./components/navbar/Footer";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       {/* <h1 className='text-2xl'>Lebaba Ecommerce Starter Files</h1> */}
       <Navbar />
       <Outlet />
+      <Footer />
     </div>
   );
 }

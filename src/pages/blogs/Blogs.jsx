@@ -1,5 +1,5 @@
 import React from "react";
-import { sharedObjects } from "./../../common/commonData";
+import { sharedObjects } from "../../common/commonData";
 import blogsData from "../../data/blogs";
 
 const Blogs = () => {
