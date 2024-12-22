@@ -14,6 +14,30 @@ export const sharedObjects = {
           accessories, and footwear that caters to every taste and occasion.`,
     explore: "explore now",
   },
+  TrendingProducts: {
+    text: "Discover the Hottest Picks: Elevate Your Style with Our Curated Collection of Trending Women;s Fashion Products",
+  },
+  DealSection: {
+    h5: `Get Up to 20% Discount`,
+    h4: `Deals Of This Month`,
+    paraText: `Our Women's Fashion Deals of the Month are here to make your style
+          dreams a reality without breaking the bank. Discover a curated
+          collection of exquisite clothing, accessories, and footwear, all
+          handpicked to elevate your wardrobe.`,
+  },
+  PromoBannerText: {
+    deliveryText: "Free Delivery",
+    offers:
+      "Offers convenience and the ability to shop from anywhere, anytime.",
+    moneyBackText: "100% Money Back Guaranty",
+    reviewText:
+      "E-Commerce have a review system where customers can share feedbacks.",
+  },
+  BlogsText: {
+    latestText: "Latest From Blogs",
+    WardRobe:
+      "Elevate your wardrobe with our freshest style tips, trends, and inspiration on our blogs.",
+  },
 };
 
 export default sharedObjects;
