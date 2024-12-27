@@ -38,6 +38,17 @@ export const sharedObjects = {
     WardRobe:
       "Elevate your wardrobe with our freshest style tips, trends, and inspiration on our blogs.",
   },
+  categoryPage: {
+    subHeader:
+      "Browse a diverse range of categories, from chic dresses to versatile accessories. Elevate your style today!",
+    search: "Search Page",
+    searchText: "Search",
+  },
+  shopFiltering: {
+    filtersText: "Filters",
+    category: "Category",
+    colorsText: "Color",
+  },
 };
 
 export default sharedObjects;

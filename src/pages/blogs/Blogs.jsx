@@ -4,7 +4,7 @@ import blogsData from "../../data/blogs";
 
 const Blogs = () => {
   const { WardRobe, latestText } = sharedObjects;
-  console.log(blogsData);
+
   return (
     <section className="section__container blog__container">
       <h2 className="section__header">{latestText}</h2>

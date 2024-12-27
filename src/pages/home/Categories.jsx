@@ -1,11 +1,25 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import Categories1 from "../../assets/category-1.jpg";
 import Categories2 from "../../assets/category-2.jpg";
 import Categories3 from "../../assets/category-3.jpg";
 import Categories4 from "../../assets/category-4.jpg";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Categories = () => {
+  // const categoriesRef = useRef(null);
+  // const location = useLocation();
+
+  // useEffect(() => {
+  //   // Check if the current route matches the "categories/dress" path
+  //   if (location.pathname.includes("/categories")) {
+  //     if (categoriesRef.current) {
+  //       categoriesRef.current.scrollIntoView({
+  //         behavior: "smooth", // Smooth scrolling
+  //         block: "start",
+  //       });
+  //     }
+  //   }
+  // }, [location]);
   const categories = [
     { name: "Accessories", path: "accessories", image: Categories1 },
     { name: "Dress Collection", path: "dress", image: Categories2 },
