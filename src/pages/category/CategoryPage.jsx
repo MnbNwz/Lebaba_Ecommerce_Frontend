@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import products from "../../data/products.json";
+import products from "../../Data/products.json";
 import sharedObjects from "../../common/commonData";
-import Products from "../shop/Products";
+import ProductComponent from "../shop/Products"
 
 const CategoryPage = () => {
   const [filterProducts, setFilterProducts] = useState([]);
@@ -35,7 +35,7 @@ const CategoryPage = () => {
       {/* Products card */}
 
       <div className="section__container">
-        <Products products={filterProducts} />
+        <ProductComponent products={filterProducts} />
       </div>
     </>
   );

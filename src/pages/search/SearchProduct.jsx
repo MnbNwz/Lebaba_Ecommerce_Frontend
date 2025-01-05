@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import productsData from "../../data/products.json";
+import productsData from "../../Data/products.json";
 import sharedObjects from "../../common/commonData";
 import Products from "../shop/Products";
 const SearchProduct = () => {

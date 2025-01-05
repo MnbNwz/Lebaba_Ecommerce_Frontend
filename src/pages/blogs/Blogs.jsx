@@ -1,6 +1,6 @@
 import React from "react";
 import { sharedObjects } from "../../common/commonData";
-import blogsData from "../../data/blogs";
+import blogsData from "../../../src/Data/blogs.json";
 
 const Blogs = () => {
   const { WardRobe, latestText } = sharedObjects;
