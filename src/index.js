@@ -5,13 +5,15 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import { RouterProvider } from "react-router-dom";
 import router from "../src/routers/router.jsx";
+import { Provider } from "react-redux";
 import "remixicon/fonts/remixicon.css";
+import { store } from "./redux/store.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
+  <Provider store={store}>
     <RouterProvider router={router} />
-  </React.StrictMode>
+  </Provider>
 );
 
 // If you want to start measuring performance in your app, pass a function

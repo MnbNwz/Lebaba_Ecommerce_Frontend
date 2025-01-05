@@ -1,10 +1,10 @@
 import React from "react";
-import InstaImg1 from "../../assets/instagram-1.jpg";
-import InstaImg2 from "../../assets/instagram-2.jpg";
-import InstaImg3 from "../../assets/instagram-3.jpg";
-import InstaImg4 from "../../assets/instagram-4.jpg";
-import InstaImg5 from "../../assets/instagram-5.jpg";
-import InstaImg6 from "../../assets/instagram-6.jpg";
+import InstaImg1 from "../assets/instagram-1.jpg";
+import InstaImg2 from "../assets/instagram-2.jpg";
+import InstaImg3 from "../assets/instagram-3.jpg";
+import InstaImg4 from "../assets/instagram-4.jpg";
+import InstaImg5 from "../assets/instagram-5.jpg";
+import InstaImg6 from "../assets/instagram-6.jpg";
 
 const Footer = () => {
   return (

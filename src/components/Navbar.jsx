@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import sharedObjects from "../../common/commonData";
+import sharedObjects from "../common/commonData";
 
 const Navbar = () => {
   const { navData, logoText } = sharedObjects;

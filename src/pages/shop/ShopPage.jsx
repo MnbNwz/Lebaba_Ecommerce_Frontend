@@ -18,6 +18,7 @@ const ShopPage = () => {
       { label: "$50 - $100", min: 50, max: 100 },
       { label: "Under $100 - $200", min: 100, max: 200 },
       { label: "$200 and above", min: 200, max: Infinity },
+      { label: "All", min: 0, max: Infinity },
     ],
   };
 

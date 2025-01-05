@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import RatingStars from "./RatingStars";
+import RatingStars from "../../../src/components/RatingStar";
 
 const Products = (props) => {
   const { products } = props;
@@ -40,19 +40,6 @@ const Products = (props) => {
       })}
     </div>
   );
-};
-
-const RatingStars = ({ rating }) => {
-  const stars = [];
-  for (let i = 1; i <= 5; i++) {
-    stars.push(
-      <span
-        key={i}
-        className={`ri-star${i <= rating ? "-fill" : "-line"}`}
-      ></span>
-    );
-  }
-  return <div className="product__rating">{stars}</div>;
 };
 
 export default Products;
