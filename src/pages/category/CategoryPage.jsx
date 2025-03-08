@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import products from "../../Data/products.json";
+import products from "../../data/products.json";
 import sharedObjects from "../../common/commonData";
-import ProductComponent from "../shop/Products"
+import ProductComponent from "../shop/Products";
 
 const CategoryPage = () => {
   const [filterProducts, setFilterProducts] = useState([]);

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import productsData from "../../Data/products.json";
+import productsData from "../../data/products.json";
 import Products from "./Products";
 import ShopFiltering from "./ShopFiltering";
 
