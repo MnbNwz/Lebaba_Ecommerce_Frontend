@@ -11,7 +11,7 @@ const ShopPage = () => {
     priceRange: "",
   });
   const filters = {
-    categories: ["all", "accessories", "dress", "jewellery", "cosmetics"],
+    categories: ["all", "accessories", "dress", "jewelry", "cosmetics"],
     colors: ["all", "black", "red", "gold", "blue", "silver", "beige", "green"],
     priceRanges: [
       { label: "Under $50", min: 0, max: 50 },
