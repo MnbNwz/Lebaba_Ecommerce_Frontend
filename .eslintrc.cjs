@@ -1,4 +1,4 @@
-// .eslintrc.js
+// .eslintrc.cjs
 module.exports = {
   env: {
     browser: true,
@@ -6,17 +6,18 @@ module.exports = {
   },
   extends: ["eslint:recommended", "plugin:react/recommended"],
   parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
     ecmaFeatures: {
       jsx: true,
     },
+    ecmaVersion: "latest",
+    sourceType: "module",
   },
   plugins: ["react"],
   rules: {
+    "no-unescaped-entities": "off",
     "no-unused-vars": "warn",
-    "no-undef": "error", // Show error for undefined variables
+    "no-undef": "error",
     "react/prop-types": "off",
-    "react/react-in-jsx-scope": "off", // For React 17+
+    "react/react-in-jsx-scope": "off",
   },
 };

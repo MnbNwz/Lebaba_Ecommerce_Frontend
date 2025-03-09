@@ -67,7 +67,7 @@ const ShopPage = () => {
         <h2 className="section__header capitalize">Shop Page</h2>
         <p className="section__subheader">
           Discover the Hottest Picks: Elevate Your Style with Our Curated
-          Collection of Trending Women's Fashion Products.
+          Collection of Trending Women&apos;s Fashion Products.
         </p>
       </section>
 
